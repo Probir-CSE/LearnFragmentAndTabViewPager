@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:layout_marginTop="16dp"
+    android:background="#5763ED"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <!--    Created by Probir Bhowmik on 06-Feb-2020. Soft BD Ltd. Email:probirbhowmikcse@gmail.com-->
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/profilePicMainIv"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="10dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintBottom_toBottomOf="@+id/menuBtn"
+            app:layout_constraintEnd_toStartOf="@+id/menuBtn"
+            app:layout_constraintTop_toTopOf="@+id/menuBtn" />
+
+
+        <TextView
+            android:id="@+id/TV_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a Title "
+            android:textColor="#ffff" />
+
+        <TextView
+            android:id="@+id/TV_subTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a Short Sub Title "
+            android:textColor="#ffff" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

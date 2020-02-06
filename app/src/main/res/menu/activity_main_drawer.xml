@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_AcademicCalendar"
+            android:icon="@android:drawable/arrow_up_float"
+            android:title="Fragment" />
+        <item
+            android:id="@+id/nav_ClassSchedule"
+            android:icon="@android:drawable/btn_radio"
+            android:title="Activity" />
+        <item
+            android:id="@+id/nav_RulesAndRegulation"
+            android:icon="@android:drawable/btn_dialog"
+            android:title="Tab View" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@android:drawable/btn_plus"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_AboutUs"
+            android:icon="@android:drawable/btn_plus"
+            android:title="About Us" />
+    </group>
+
+
+
+</menu>
